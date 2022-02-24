@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="Header__wrapper">
-        <h1 className="Header__title">Todo</h1>
+        <h1 className="Header__title">Avi Todo</h1>
         <button type="button" className="Header__btn" onClick={changeTheme}>
           <img
             src={!darkTheme ? moonIcon : sunIcon}
