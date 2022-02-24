@@ -29,17 +29,10 @@ Users should be able to:
 - [x] Toggle light and dark mode
 - [x] **Bonus**: Drag and drop to reorder items on the list
 
-### Screenshot
-
-![Screenshot](https://nimbus-screenshots.s3.amazonaws.com/s/d45c0957e4e7aea8ed06c5cad3cec4dd.png)
-
 ### Links
 
-- Solution URL: [Repository](https://github.com/yasledesma/fem-todo)
-- Live Site URL: [Live](https://eloquent-jennings-f7342d.netlify.app/)
-
-## My process
-You can read all about it in my [latest blog post!](#) (Coming Soon!)
+- Solution URL: [Repository](https://github.com/AviPat/todo-list)
+- Live Site URL: [Live](https://todo-list-avipat.vercel.app/)
 
 ### Built with
 
@@ -64,5 +57,4 @@ After this, I will be finishing the REST Countries API challenge from Frontend M
 
 ## Author
 
-- GitHub - [Yasmin Ledesma](https://github.com/yasledesma)
-- Twitter - [@yasledesma28](https://www.twitter.com/yasledesma28)
+- GitHub - [Avinash Bhat](https://github.com/AviPat)

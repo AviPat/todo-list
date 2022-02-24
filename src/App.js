@@ -48,7 +48,7 @@ const ACTIONS = {
 const App = () => {
   const [todos, dispatch] = useReducer(todoReducer, [], storedTodos);
   const [task, setTask] = useState("");
-  const [darkTheme, setDarkTheme] = useState(false);
+  const [darkTheme, setDarkTheme] = useState(true);
   const [renderize, setRenderize] = useState(todos);
 
   useEffect(() => {

@@ -5,7 +5,7 @@ const Footer = () => {
     <div className='Footer'>
         <p className="attribution Footer__p">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="blank_">Frontend Mentor</a>. 
-          Coded by <a href="https://github.com/yasledesma" target="blank_">Yasmin Ledesma</a>.
+          Coded by <a href="https://github.com/AviPat" target="blank_">Avinash Bhat</a>.
         </p>
     </div>
     );
