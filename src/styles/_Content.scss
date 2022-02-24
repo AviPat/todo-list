@@ -1,0 +1,23 @@
+.Content {
+    @include flexContainer(column, center, center);
+
+    &__drag-n-drop {
+        color: var(--lt-dark-grayish-blue);
+        font-size: .9rem;
+        font-weight: var(--font-weigth-bold);
+        position: fixed;
+        bottom: 8rem;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Content {
+        width: 30rem;
+
+        &__drag-n-drop {
+            margin: 0 0 4rem 0;
+            bottom: 10rem;
+        }
+    }
+}

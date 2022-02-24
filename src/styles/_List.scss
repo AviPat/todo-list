@@ -1,0 +1,36 @@
+.List {
+    @include flexContainer(column, center, center);
+    transform: translateY(-1.5rem);
+    z-index: 99;
+    
+    &__wrapper {
+        @include flexContainer(row, center, center);
+        gap: 6rem;
+        min-width: 18rem;
+        min-height: 3rem;
+        border-bottom-left-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+        background-color: var(--secondary-color);
+        box-shadow: 0px 14px 48px 2px var(--box-shadow);
+        z-index: 99;
+    }
+    
+    &__btn {
+        color: var(--lt-dark-grayish-blue);
+        font-weight: var(--font-weigth-bold);
+        font-family: var(--primary-font);
+
+        &:active {
+            color: var(--primary-color);
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .List {
+        &__wrapper {
+            width: 30rem;
+            gap: 18rem;
+        }
+    }
+}
