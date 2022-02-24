@@ -17,6 +17,11 @@
         color: var(--lt-very-light-gray);
         letter-spacing: .7rem;
         font-size: 1.6rem;
+
+        @media screen and (max-width: 1024px) {
+            font-size: 1rem;
+            letter-spacing: .2rem;
+        }
     }
 
     &__btn {
